@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+git push -u origin main --forceimport React, { useState, useCallback } from 'react';
 import { Header } from './components/Header';
 import { ImageUploader } from './components/ImageUploader';
 import { PromptInput } from './components/PromptInput';
