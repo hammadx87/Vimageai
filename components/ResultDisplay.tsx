@@ -34,7 +34,7 @@ export const ResultDisplay: React.FC<ResultDisplayProps> = ({ isLoading, editedI
             <img src={editedImageUrl} alt="Generated result" className="max-h-full max-w-full object-contain rounded-md shadow-lg" />
             <a
                 href={editedImageUrl}
-                download="prognosisai-edited.png"
+                download="vimageai-edited.png"
                 title="Download high-resolution image"
                 aria-label="Download Image"
                 className="absolute top-4 right-4 bg-indigo-600/80 hover:bg-indigo-500 backdrop-blur-sm text-white p-3 rounded-full transition-all duration-300 shadow-lg hover:scale-110 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-indigo-500"
