@@ -3,11 +3,11 @@ import { GoogleGenAI, Modality } from "@google/genai";
 
 // This is the secure, server-side handler for the Gemini API call.
 // The API_KEY is stored as an environment variable in Netlify, not exposed to the browser.
-const API_KEY = process.env.API_KEY;
+const API_KEY = process.env.GEMINI_API_KEY;
 
 if (!API_KEY) {
   // This error will be visible in the Netlify function logs.
-  throw new Error("API_KEY environment variable not set in Netlify.");
+  throw new Error("GEMINI_API_KEY environment variable not set in Netlify.");
 }
 
 const ai = new GoogleGenAI({ apiKey: API_KEY });
