@@ -1,0 +1,5 @@
+{
+  "name": "PrognosisAI",
+  "description": "An application that allows users to upload an image and provide a text prompt to edit it using an advanced AI model. The edited image is then displayed, transforming the original based on the user's instructions.",
+  "requestFramePermissions": []
+}
